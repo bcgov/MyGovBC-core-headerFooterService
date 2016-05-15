@@ -1,0 +1,16 @@
+#sf_records{
+	margin-top:30px;
+}
+
+#sf_records .records_with_related, #sf_records .records{
+	padding-right:15px;
+}
+
+#sf_records #records_with_related, #sf_records .records{
+	margin-bottom:15px;
+}
+
+#sf_record{
+	background-color: #f1f1f2;
+	padding:15px;
+}
