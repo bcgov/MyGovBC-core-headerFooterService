@@ -1,0 +1,215 @@
+/* header nav styles */
+/* RA-450 */
+.bcgovHF #header-main-row2.navbar-collapse {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bcgovHF .alert-success:before {
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f058";
+  font-size: larger;
+}
+.bcgovHF .alert-info:before {
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e086";
+}
+.bcgovHF .alert-warning:before {
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f071";
+  font-size: larger;
+}
+.bcgovHF .alert-danger:before {
+  position: relative;
+  top: 1px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: 'FontAwesome';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f06a";
+  font-size: larger;
+}
+.bcgovHF .homePageMainColumn a.btn,
+.bcgovHF .homePageRightColumn a.btn,
+.bcgovHF .contentPageMainColumn a.btn,
+.bcgovHF .contentPageRightColumn a.btn {
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  white-space: normal;
+}
+.bcgovHF .homePageMainColumn a.btn:hover,
+.bcgovHF .homePageRightColumn a.btn:hover,
+.bcgovHF .contentPageMainColumn a.btn:hover,
+.bcgovHF .contentPageRightColumn a.btn:hover {
+  color: #fff;
+}
+.bcgovHF a.btn-primary {
+  background-color: #38598a;
+}
+.bcgovHF a.btn-primary:hover {
+  background-color: #5475a7;
+}
+.bcgovHF .homePageRightColumn .rightColumnBox a.btn,
+.bcgovHF .contentPageRightColumn .rightColumnBox a.btn {
+  display: table;
+}
+@media (min-width: 992px) {
+  .bcgovHF .homePageRightColumn .rightColumnBox a.btn,
+  .bcgovHF .contentPageRightColumn .rightColumnBox a.btn {
+    margin: 0 auto;
+  }
+}
+.bcgovHF #main-content .row > [class*='col-'] {
+  padding-right: 15px;
+}
+.bcgovHF #main-content .row > :first-child[class*='col-'] {
+  padding-left: 0;
+}
+@media (max-width: 992px) {
+  .bcgovHF #main-content .row > [class*='col-'] {
+    padding-left: 0;
+  }
+}
+.bcgovHF table {
+  margin: 10px auto;
+}
+.bcgovHF .tile.col-sm-6 span.baec5a81-e4d6-4674-97f3-e9220f0136c1 img {
+  width: auto !important;
+}
+#header.bcgovHF .notification-banner-danger {
+  background-color: #ad0000 !important;
+}
+#header.bcgovHF .notification-banner-info {
+  background-color: #355992 !important;
+}
+#header.bcgovHF .notification-banner-success {
+  background-color: #146126 !important;
+}
+.bcgovHF .alert-notification {
+  background-color: inherit !important;
+  border-radius: 0;
+  border-style: none;
+  margin-bottom: 0;
+}
+.bcgovHF .alert-notification:before {
+  color: #fff;
+  font-size: xx-large !important;
+}
+.bcgovHF .alert-notification > div {
+  font-size: x-large;
+  color: #fff;
+}
+.bcgovHF .alert-notification-close {
+  color: #fff !important;
+  opacity: 0.9 !important;
+  top: 1px !important;
+  font-size: xx-large !important;
+}
+.bcgovHF #notificationMessageButtonNoSearchCollapsed {
+  right: 80px !important;
+}
+.bcgovHF .alert-notification-icon {
+  top: 0;
+  cursor: pointer;
+  float: left;
+  width: 93px;
+  height: 66px;
+  color: #fff;
+  cursor: pointer;
+}
+.bcgovHF .alert-notification-icon:before {
+  top: 10px !important;
+  left: 25px !important;
+}
+@media (max-width: 767px) {
+  .bcgovHF .alert-notification-icon {
+    width: auto;
+    height: auto;
+  }
+  .bcgovHF .alert-notification-icon:before {
+    top: 1px !important;
+    left: 0 !important;
+  }
+}
+.bcgovHF .alert-danger-notification-icon {
+  font-size: x-large;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  border-style: none;
+  background-color: #ad0000 !important;
+}
+.bcgovHF .alert-info-notification-icon {
+  font-size: x-large;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  border-style: none;
+  background-color: #355992 !important;
+}
+.bcgovHF .alert-success-notification-icon {
+  font-size: x-large;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  border-style: none;
+  background-color: #146126 !important;
+}
+.bcgovHF .alert-danger-notification-icon:before {
+  background-color: #ad0000;
+  margin-right: 0 !important;
+  color: #fff !important;
+}
+.bcgovHF .alert-info-notification-icon:before {
+  background-color: #355992;
+  margin-right: 0 !important;
+  color: #fff !important;
+}
+.bcgovHF .alert-success-notification-icon:before {
+  background-color: #146126;
+  margin-right: 0 !important;
+  color: #fff !important;
+}
+.bcgovHF a.alert-notification-link {
+  color: inherit !important;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.bcgovHF a.alert-notification-link:hover,
+.bcgovHF a.alert-notification-link:focus {
+  color: #b1bfd3 !important;
+}

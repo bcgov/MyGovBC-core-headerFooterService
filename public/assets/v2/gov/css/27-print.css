@@ -1,0 +1,131 @@
+.bcgovHF .printHeader {
+  display: none;
+}
+@media print {
+  .bcgovHF body {
+    font-family: Arial, Helvetica, sans-serif;
+/* 		width:720px; */
+  }
+  .bcgovHF a {
+    text-decoration: underline !important;
+  }
+  .bcgovHF a[href]:after {
+    content: none;
+  }
+  .bcgovHF #breadcrumbContainer {
+    display: none;
+  }
+  .bcgovHF .template {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .bcgovHF .container {
+    padding: 0;
+  }
+  .bcgovHF .printHeader {
+    display: block;
+  }
+  .bcgovHF .row {
+/* 		height: 120px; */
+    padding: 15px;
+  }
+  .bcgovHF .featureBoxes-3col>.featureBox {
+    display: block;
+    width: 100%;
+  }
+  .bcgovHF .contentPageMainColumn ul>li,
+  .bcgovHF .contentPageRightColumn ul>li,
+  .bcgovHF ul.bulleted>li {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  .bcgovHF .rightColumnBox {
+    padding: 0;
+  }
+  .bcgovHF .contentPageRightColumn {
+    width: 100%;
+  }
+  .bcgovHF .tiles-row {
+    width: 100%;
+    display: block;
+  }
+  .bcgovHF #main-content {
+/* 		margin-top:50px; */
+    width: 100%;
+    overflow: hidden;
+  }
+  .bcgovHF .homePageMainColumn>.blue-heading-bar {
+    margin-top: 10px;
+  }
+  .bcgovHF .homePageMainColumn>.sortable {
+    display: inline;
+  }
+  .bcgovHF .blue-heading-bar {
+    padding: 0;
+  }
+  .bcgovHF .tile-sort-button {
+    display: none;
+  }
+  .bcgovHF .homepage-tile .tile-icon {
+    display: none;
+  }
+  .bcgovHF .themeHeader h1 {
+    margin: 50px 0 0 0;
+  }
+  .bcgovHF .themePromoBoxContent {
+    padding: 0;
+  }
+  .bcgovHF .themeHeader {
+    padding-left: 10px;
+  }
+  .bcgovHF .tiles-container-2col .tiles-row .tile {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0 !important;
+    border-bottom: 1px solid #000 !important;
+    padding: 20px 0;
+  }
+  .bcgovHF .explore-within {
+    float: none;
+    border: 1px solid #000 !important;
+  }
+  .bcgovHF .col-sm-3 {
+    width: 100%;
+  }
+  .bcgovHF .col-sm-offset-3 {
+    margin: 0;
+  }
+  .bcgovHF #footer {
+    display: none;
+  }
+  .bcgovHF #main-content .row >.col-md-3,
+  .bcgovHF #main-content .row >.col-md-4,
+  .bcgovHF #main-content .row >.col-md-6,
+  .bcgovHF #main-content .row >.col-md-9 {
+    float: left !important;
+  }
+  .bcgovHF #main-content .row >.col-md-9 {
+    width: 75%;
+  }
+  .bcgovHF #main-content .row >.col-md-6 {
+    width: 50%;
+  }
+  .bcgovHF #main-content .row >.col-md-4 {
+    width: 33.33333333333333%;
+  }
+  .bcgovHF #main-content .row >.col-md-3 {
+    width: 25%;
+  }
+  .bcgovHF #main-content .row > [class*='col-'] {
+    padding-right: 5px;
+  }
+  .bcgovHF #main-content .row > :first-child[class*='col-'] {
+    padding-left: 0;
+  }
+}
+@media print and (max-width: 992px) {
+  .bcgovHF #main-content .row > [class*='col-'] {
+    padding-left: 0;
+  }
+}

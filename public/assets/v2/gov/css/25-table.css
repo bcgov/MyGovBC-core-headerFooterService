@@ -1,0 +1,71 @@
+.bcgovHF td {
+  padding: 4px;
+}
+.bcgovHF th {
+  padding: 4px;
+  text-align: center;
+}
+.bcgovHF table[border="1"].table>tbody>tr>td,
+.bcgovHF table[border="2"].table>tbody>tr>td,
+.bcgovHF table[border="3"].table>tbody>tr>td,
+.bcgovHF table[border="4"].table>tbody>tr>td,
+.bcgovHF table[border="5"].table>tbody>tr>td {
+  border-top: 1px solid #000;
+}
+.bcgovHF .table-striped>tbody>tr:nth-child(odd)>td,
+.bcgovHF .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #f1f1f2;
+}
+.bcgovHF .table>thead>tr>th {
+  border-bottom-color: #000;
+  border-bottom: 1px;
+}
+.bcgovHF .table>thead>tr>th,
+.bcgovHF .table>tbody>tr>th,
+.bcgovHF .table>tfoot>tr>th,
+.bcgovHF .table>thead>tr>td,
+.bcgovHF .table>tbody>tr>td,
+.bcgovHF .table>tfoot>tr>td {
+  border-top-color: #000;
+}
+.bcgovHF .table-responsive {
+  border: none;
+}
+.bcgovHF .dataTables_paginate ul {
+  padding-left: inherit !important;
+}
+.bcgovHF .dataTables_paginate ul>li {
+  padding-left: inherit !important;
+  background: inherit !important;
+  margin-bottom: inherit !important;
+}
+.bcgovHF .dataTable-table-responsive {
+  min-height: 0.01%;
+  overflow-x: auto;
+  border: none;
+}
+.bcgovHF div.dataTable-table-responsive > div.dataTables_wrapper > div.row {
+  margin: 0;
+}
+.bcgovHF div.dataTable-table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child {
+  padding-left: 0;
+}
+.bcgovHF div.dataTable-table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child {
+  padding-right: 0;
+}
+.bcgovHF table.dataTable thead .sorting:after,
+.bcgovHF table.dataTable thead .sorting_asc:after,
+.bcgovHF table.dataTable thead .sorting_desc:after,
+.bcgovHF table.dataTable thead .sorting_asc_disabled:after,
+.bcgovHF table.dataTable thead .sorting_desc_disabled:after {
+  opacity: 1 !important;
+}
+@media (max-width: 767px) {
+  .bcgovHF .dataTable-table-responsive {
+    border: none !important;
+  }
+  .bcgovHF .dataTable-table-responsive>.bootstrapTable {
+    width: 100%;
+    border: 1px solid #000;
+  }
+}

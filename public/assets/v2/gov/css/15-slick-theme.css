@@ -1,0 +1,144 @@
+@charset 'UTF-8';
+.bcgovHF .slick-loading .slick-list {
+  background: #fff url("./ajax-loader.gif") center center no-repeat;
+}
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format('embedded-opentype'), url("./fonts/slick.woff") format('woff'), url("./fonts/slick.ttf") format('truetype'), url("./fonts/slick.svg#slick") format('svg');
+}
+.bcgovHF .slick-prev,
+.bcgovHF .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.bcgovHF .slick-prev:hover,
+.bcgovHF .slick-prev:focus,
+.bcgovHF .slick-next:hover,
+.bcgovHF .slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.bcgovHF .slick-prev:hover:before,
+.bcgovHF .slick-prev:focus:before,
+.bcgovHF .slick-next:hover:before,
+.bcgovHF .slick-next:focus:before {
+  opacity: 1;
+}
+.bcgovHF .slick-prev.slick-disabled:before,
+.bcgovHF .slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+.bcgovHF .slick-prev:before,
+.bcgovHF .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bcgovHF .slick-prev {
+  left: -25px;
+}
+.bcgovHF [dir='rtl'] .slick-prev {
+  right: -25px;
+  left: auto;
+}
+.bcgovHF .slick-prev:before {
+  content: '←';
+}
+.bcgovHF [dir='rtl'] .slick-prev:before {
+  content: '→';
+}
+.bcgovHF .slick-next {
+  right: -25px;
+}
+.bcgovHF [dir='rtl'] .slick-next {
+  right: auto;
+  left: -25px;
+}
+.bcgovHF .slick-next:before {
+  content: '→';
+}
+.bcgovHF [dir='rtl'] .slick-next:before {
+  content: '←';
+}
+.bcgovHF .slick-slider {
+  margin-bottom: 30px;
+}
+.bcgovHF .slick-dots {
+  position: absolute;
+  bottom: -45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.bcgovHF .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.bcgovHF .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.bcgovHF .slick-dots li button:hover,
+.bcgovHF .slick-dots li button:focus {
+  outline: none;
+}
+.bcgovHF .slick-dots li button:hover:before,
+.bcgovHF .slick-dots li button:focus:before {
+  opacity: 1;
+}
+.bcgovHF .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: 0.25;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bcgovHF .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #000;
+}

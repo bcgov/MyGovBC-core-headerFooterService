@@ -1,22 +1,30 @@
 MyGovBC-core-headerFooterService
 =================
 
-Implementing MyGovBC header footer as a service, based on [Unippear](https://github.com/abbr/unippear)
+[![Build Status](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/buildStatus/icon?job=gcpe-mygovbc-demo/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline)](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/job/gcpe-mygovbc-demo/job/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline/)
+
+https://gov.bc.ca header footer as a service, implemented using [Unippear](https://github.com/abbr/unippear).
+
+See [live demo](https://mygovbc-core-headerfooterservice-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/test.html).
+
+
 
 # Development
 
-1. Installing:
+1. Install
+
     ```
     git clone https://github.com/bcgov/MyGovBC-core-headerFooterService.git
-    npm install
+    npm i -g yarn
+    yarn install
     ```
-2. Updating */public/assets* as needed.
-3. Updating /client-whitelist.json with a list of authorized client URL patterns. Updates made at runtime in the future take effect immediately without restarting Node.
-4. Launching the app by running command `node bin/www` from application root. By default, the process listens on port 3000. To change port, either modify */bin/www* or set env PORT before launching node.
+2. Update /client-whitelist.json with a list of authorized client URL patterns. Updates made at runtime in the future take effect immediately without restarting Node.
+3. Launch the app by running command `npm start` from application root. By default, the process listens on port 3000. To change, set env UNIPPEAR_PORT before launching node.
+4. Check READMEs in sub-folders of *public/assets* for additional version/theme specific options
 
 ## License
 
-    Copyright 2016 Province of British Columbia
+    Copyright 2016-Present Province of British Columbia
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

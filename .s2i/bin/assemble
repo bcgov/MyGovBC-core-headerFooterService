@@ -1,0 +1,15 @@
+#!/bin/bash
+# make sure copy and mv applies to dot files
+shopt -s dotglob nullglob
+# fail fast
+set -e
+echo "---> Installing application source"
+pushd /tmp/src
+rm -rf node_modules
+chmod -R a+rwx ./
+echo node version $(node -v)
+echo "---> Building your Node application from source"
+npm i -g yarn
+yarn install
+popd
+mv /tmp/src/* ./

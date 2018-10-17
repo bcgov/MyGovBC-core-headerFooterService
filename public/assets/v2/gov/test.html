@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Unippear Demo</title>
+  <script type="text/javascript" src="/v2/gov/"></script>
+  <script type="text/javascript">
+    unippear({
+      headerContainer: '#wrapper',
+      footerContainer: '#wrapper',
+    });
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="content">
+        <h2 class="entry-title">Welcome!</h2> Does this page look like being hosted on http://www2.gov.bc.ca? If you
+        think so, then my goal is partially achieved! Actually, the page is generated from a static HTML file of which
+        source is available <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService/blob/master/public/assets/v2/gov/test.html">here</a>. Looking at the source, you'll find it only contains this "Welcome" paragragh. Then
+        where does the header (all stuff before this paragragh) and footer (all stuff afterwards) come from? The answer
+        is this JS block:
+        <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;/v2/gov/&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    unippear({
+        headerContainer: &apos;#wrappe&apos;,
+        footerContainer: &apos;#wrapper&apos;,
+    });
+&lt;/script&gt;
+</pre>
+        <p>
+          Additonal options when calling unippear can be found <a href='https://github.com/bcgov/MyGovBC-core-headerFooterService/blob/master/public/assets/v2/gov/README.md'>here</a>.
+        </p>
+        Factoring header, footer and associated assets (CSS, JS, img etc) out of a document isn't new. Almost all
+        template engines are capable of. But those template engines are platform specific and thus only work for one
+        website. Unipear turns the layout into a service to make it shareable among multiple websites. If this is of interest to you, return to <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService">MyGovBC-core-headerFooterService</a> and keep reading. You may also find <a href='https://github.com/abbr/unippear'>Unippear</a> docs to be useful.
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
