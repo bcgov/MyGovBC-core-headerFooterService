@@ -10,6 +10,24 @@
       footerContainer: '#wrapper',
     });
   </script>
+  <style>
+    #wrapper {
+      min-height: 100%;
+      position: relative;
+      padding-bottom: 70px;
+    }
+
+    #footer.bcgovHF {
+      position: absolute !important;
+      height: 70px;
+      width: 100%;
+      bottom: 0px;
+    }
+
+    #content {
+      padding: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -18,7 +36,8 @@
       <div id="content">
         <h2 class="entry-title">Welcome!</h2> Does this page look like being hosted on http://www2.gov.bc.ca? If you
         think so, then my goal is partially achieved! Actually, the page is generated from a static HTML file of which
-        source is available <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService/blob/master/public/assets/v2/gov/test.html">here</a>. Looking at the source, you'll find it only contains this "Welcome" paragragh. Then
+        source is available <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService/blob/master/public/assets/v2/gov/test.html">here</a>.
+        Taking a look at the source, you'll find it only contains this "Welcome" paragragh. Then
         where does the header (all stuff before this paragragh) and footer (all stuff afterwards) come from? The answer
         is this JS block:
         <pre>&lt;script type=&quot;text/javascript&quot; src=&quot;/v2/gov/&quot;&gt;&lt;/script&gt;
@@ -34,7 +53,9 @@
         </p>
         Factoring header, footer and associated assets (CSS, JS, img etc) out of a document isn't new. Almost all
         template engines are capable of. But those template engines are platform specific and thus only work for one
-        website. Unipear turns the layout into a service to make it shareable among multiple websites. If this is of interest to you, return to <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService">MyGovBC-core-headerFooterService</a> and keep reading. You may also find <a href='https://github.com/abbr/unippear'>Unippear</a> docs to be useful.
+        website. Unipear turns the layout into a service to make it shareable among multiple websites. If this is of
+        interest to you, return to <a href="https://github.com/bcgov/MyGovBC-core-headerFooterService">MyGovBC-core-headerFooterService</a>
+        and keep reading. You may also find <a href='https://github.com/abbr/unippear'>Unippear</a> docs to be useful.
       </div>
     </div>
   </div>
