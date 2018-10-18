@@ -16,6 +16,7 @@ supported `<options>` object
 * showSearch - boolean **true**|false, whether to show search button
 * showMenu - boolean **true**|false, whether to show top nav hamburger menu
 * showFooterExpand - boolean **true**|false, whether to show footer expand
+* showBackToTop - boolean **true**|false, whether to show back to top button when scrolling down to near bottom
 
 Example `<options>`
 
@@ -26,5 +27,6 @@ Example `<options>`
   showSearch: false,
   showMenu: false,
   showFooterExpand: false,
+  showBackToTop: false,
 }
 ```

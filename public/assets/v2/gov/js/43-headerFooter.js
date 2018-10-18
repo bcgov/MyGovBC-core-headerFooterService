@@ -450,15 +450,18 @@ function collapseHeaderSearch() {
 
 $(document).on('headerLoaded', function () {
 	if (unippear.showSearch === false) {
-		$('#searchButton').css('visibility','hidden');
+		$('#searchButton').css('visibility','hidden')
 	}
 	if (unippear.showMenu === false) {
-		$('#govNavMenuToggle').css('visibility','hidden');
+		$('#govNavMenuToggle').css('visibility','hidden')
 	}
 })
 
 $(document).on('footerLoaded', function () {
 	if (unippear.showFooterExpand === false) {
-		$('.footerExpand').hide();
+		$('.footerExpand').hide()
+	}
+	if (unippear.showBackToTop === false) {
+		$('.back-to-top').css('visibility','hidden')
 	}
 })
