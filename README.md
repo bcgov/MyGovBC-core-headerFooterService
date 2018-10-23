@@ -1,7 +1,9 @@
 MyGovBC-core-headerFooterService
 =================
 
-[![Build Status](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/buildStatus/icon?job=gcpe-mygovbc-demo/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline)](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/job/gcpe-mygovbc-demo/job/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline/)
+* [![Build Status](https://travis-ci.org/bcgov/MyGovBC-core-headerFooterService.svg?branch=master)](https://travis-ci.org/bcgov/MyGovBC-core-headerFooterService) using latest Nodejs
+* [![Build Status](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/buildStatus/icon?job=gcpe-mygovbc-demo/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline)](https://jenkins-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/job/gcpe-mygovbc-demo/job/gcpe-mygovbc-demo-mygovbc-core-headerfooterservice-pipeline/) depolying to OpenShift
+* [![Known Vulnerabilities](https://snyk.io/test/github/bcgov/MyGovBC-core-headerFooterService/badge.svg?targetFile=package.json)](https://snyk.io/test/github/bcgov/MyGovBC-core-headerFooterService?targetFile=package.json)
 
 https://gov.bc.ca header footer as a service, implemented using [Unippear](https://github.com/abbr/unippear).
 
