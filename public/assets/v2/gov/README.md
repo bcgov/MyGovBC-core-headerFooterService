@@ -1,10 +1,12 @@
 This version/theme renders header/footer similar to https://gov.bc.ca as of October 2018.
 
+See [demo](https://mygovbc-core-headerfooterservice-gcpe-mygovbc-demo.pathfinder.gov.bc.ca/v2/gov/test.html)
+
 ## Usage
-Add following HTML code fragment to your web site, replacing `<your-host>` and `<options>`
+Add following HTML code fragment to your web site, replacing `<bcgov-header-footer-service-host>` and `<options>`
 
 ```
-<script type="text/javascript" src="https://<your-host>/v2/gov/"></script>
+<script type="text/javascript" src="https://<bcgov-header-footer-service-host>/v2/gov/"></script>
 <script type="text/javascript">
     unippear(<options>);
 </script>
